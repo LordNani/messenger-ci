@@ -19,6 +19,9 @@ public class DbInitializer {
     @EventListener
     public void onApplicationEvent(ContextRefreshedEvent event) {
 
+
+        
+
         fakerService.generateRandomData();
     }
 }

@@ -17,45 +17,13 @@
 		<java.version>11</java.version>
 		<jjwt.version>0.9.1</jjwt.version>
 
-		<sonar.projectKey>LordNani_messenger-ci</sonar.projectKey>
-		<sonar.organization>lordnani</sonar.organization>
+		<sonar.projectKey>grytsiuko_Messenger</sonar.projectKey>
+		<sonar.organization>grytsiuko</sonar.organization>
 		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
 	</properties>
 
-<!--	<profiles>-->
-<!--		<profile>-->
-<!--			<id>deploy-docker</id>-->
-<!--			<properties>-->
-<!--				<maven.deploy.skip>true</maven.deploy.skip>-->
-<!--			</properties>-->
-<!--			<build>-->
-<!--				<plugins>-->
-<!--					<plugin>-->
-<!--						<groupId>com.google.cloud.tools</groupId>-->
-<!--						<artifactId>jib-maven-plugin</artifactId>-->
-<!--						<version>3.0.0</version>-->
-<!--						<configuration>-->
-<!--							<to>-->
-<!--								<image>lordnani/messenger-ci-process</image>-->
-<!--								<tags>-->
-<!--									<tag>${project.version}</tag>-->
-<!--									<tag>latest</tag>-->
-<!--								</tags>-->
-<!--							</to>-->
-<!--						</configuration>-->
-<!--					</plugin>-->
-<!--				</plugins>-->
-<!--			</build>-->
-<!--		</profile>-->
-<!--	</profiles>-->
-
 	<dependencies>
-<!--		<dependency>-->
-<!--			<groupId>com.google.cloud.tools</groupId>-->
-<!--			<artifactId>jib-maven-plugin</artifactId>-->
-<!--			<version>3.0.0</version>-->
-<!--			<type>maven-plugin</type>-->
-<!--		</dependency>-->
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
