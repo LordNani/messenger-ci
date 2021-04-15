@@ -39,4 +39,5 @@ jobs:
         - name: Publish image
           env:
             IMAGE_NAME: ${{ steps.global_env.outputs.GITHUB_REPO }}
-          run: docker push "${{ secrets.DOCKER_HUB_USERNAME }}/${{ steps.global_env.outputs.IMAGE_NAME }}:${GITHUB_SHA::8}" 
+  #       run: docker push "${{ secrets.DOCKER_HUB_USERNAME }}/${{ steps.global_env.outputs.IMAGE_NAME }}:${GITHUB_SHA::8}" 
+          run: docker push "lordnani/${{ steps.global_env.outputs.IMAGE_NAME }}:${GITHUB_SHA::8}" 
